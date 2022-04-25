@@ -10,10 +10,12 @@ const port = config.get<number>('port')
 
 const app = express();
 
-app.listen(port, () => {
+app.use(express.json())
+
+app.listen(port, async () => {
   logger.info(`App is running at http://localhost:${port}`)
 
-  connect()
+  await connect()
 
   routes(app)
 })
