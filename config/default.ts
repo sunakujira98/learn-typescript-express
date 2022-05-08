@@ -1,6 +1,7 @@
 export default {
   port: 1337,
-  dbUri: "mongodb+srv://sunakujira98:DxEQsWcxKq2JSiPo@cluster0.pgxxh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  // dbUri: "mongodb+srv://sunakujira98:DxEQsWcxKq2JSiPo@cluster0.pgxxh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  dbUri: 'mongodb://localhost:27017',
   saltWorkFactor: 10,
   accessTokenTtl: '15m',
   refreshTkoenttl: '1y',
