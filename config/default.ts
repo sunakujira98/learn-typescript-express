@@ -4,7 +4,7 @@ export default {
   dbUri: 'mongodb://localhost:27017',
   saltWorkFactor: 10,
   accessTokenTtl: '15m',
-  refreshTkoenttl: '1y',
+  refreshTokenTtl: '1y',
   privateKey: `
 -----BEGIN RSA PRIVATE KEY-----
 MIICWgIBAAKBgGoDc+WwVGkA7JA69nJsCi2LU8nva95+S8xX4b42ePCM1B6Yy6x4

@@ -35,7 +35,7 @@ export async function createUserSessionHandler(req: Request, res: Response) {
     session: session._id,
   },
   {
-    expiresIn: config.get('accessTokenTtl')
+    expiresIn: config.get('refreshTokenTtl')
   })
 
   // return access & refresh token
